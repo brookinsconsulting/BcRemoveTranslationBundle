@@ -2,7 +2,7 @@
     "name": "brookinsconsulting/bcremovetranslationbundle",
     "description": "BC Remove Translation Bundle for eZ Platform. Provides a basic solution to remove a content translation using eZ Publish Platform / eZ Platform / Symfony commands. Great for developers!",
     "type" : "ezplatform-bundle",
-    "keywords": [ "eZ Publish Platform", "eZ Platform", "eZ Publish Platform", "bundle", "cli", "script", "command", "content", "remove", "translation" ],
+    "keywords": [ "eZ Publish Platform", "eZ Platform", "bundle", "cli", "script", "command", "content", "remove", "translation" ],
     "homepage": "https://gitlab.com/brookinsconsulting/bcremovetranslationbundle",
     "license": "GPL-2.0+",
     "authors": [
