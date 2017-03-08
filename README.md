@@ -124,6 +124,8 @@ Usage
 
 The solution is configured to work virtually by default once properly installed.
 
+WARNING! Remember to backup your installations database, source code and var directory content before using this solution!
+
 ### Running the command
 
 To remove content location translation run the following command and you will be prompted for required arguments
