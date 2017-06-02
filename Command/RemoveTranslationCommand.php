@@ -184,10 +184,11 @@ class RemoveTranslationCommand extends ContainerAwareCommand
         foreach ($versionInfo->languageCodes as $languageCode) {
             if (!$newMainLanguage && $languageCode != $this->removeLanguage)
                 $newMainLanguage = $languageCode;
-            if (!$newMainLanguage) {
-                $output->writeln("<error>Error</error>: No translations left if <info>" . $this->removeLanguage . "</info> is removed.");
-                return;
-            }
+        }
+
+        if (!$newMainLanguage) {
+            $output->writeln("<error>Error</error>: No translations left if <info>" . $this->removeLanguage . "</info> is removed.");
+            return;
         }
 
         if(!$this->disableRemoveConfirmation) {
